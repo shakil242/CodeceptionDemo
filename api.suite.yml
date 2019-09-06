@@ -1,0 +1,8 @@
+actor: ApiTester
+modules:
+    enabled:
+    - \Helper\Api
+    - REST:
+        url: https://qa.textinchurch.com/api/
+        depends: PhpBrowser
+        part: Json
